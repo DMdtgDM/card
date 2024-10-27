@@ -1,3 +1,8 @@
+@font-face {
+  font-family: cu;
+  src: url('../public/cursive.ttf');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +17,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  font-family: cursive;
+  font-family: cu;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
   color: rgb(1, 93, 168);
 }
 
