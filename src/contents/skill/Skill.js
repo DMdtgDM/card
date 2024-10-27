@@ -11,7 +11,7 @@ export default function Skill(props) {
                         hover(e)
                     }} onMouseLeave={(e) => {
                         noHover(e)
-                    }}></img>
+                    }} alt=""></img>
         </div>
     );
 }
